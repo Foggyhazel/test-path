@@ -1,6 +1,6 @@
 import React from "react"
 import data from "../data";
-import { G, Circle, Path } from "react-native-svg";
+import { Circle, Path } from "react-native-svg";
 
 
 
