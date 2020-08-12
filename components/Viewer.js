@@ -5,10 +5,8 @@ import { G } from 'react-native-svg';
 class _Viewer extends React.Component {
   render() {
     return (
-      <G>
-        <G translateX={this.props.tx} translateY={this.props.ty} scale={this.props.ty / 100}>
-          {this.props.children}
-        </G>
+      <G translateX={this.props.tx} translateY={this.props.ty} scale={this.props.ty / 100}>
+        {this.props.children}
       </G>
     );
   }
